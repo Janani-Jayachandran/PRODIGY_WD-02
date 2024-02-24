@@ -3,17 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  background-color: black;
+}
+
+.heading{
+     font-size: 50px;
+     color: white;
+     text-align: center;
+     margin-top:20px;
+}
 
 .container{
     width:40%;
     min-width: 500px;
     position: absolute;
-    top:15%;
+    top:20%;
     left:30%;
     transform:translateX(-50%, -50%);
     background-color:rgb(29, 104, 128);
     padding-bottom: 60px;
-    border-radius: 50px;
+    border-radius: 70px;
     box-shadow: rgba(0,0,0,0.4)0px 2px 4px, rgba(0,0,0,0.3)0px 7px 13px -3px,rgba(0,0,0,0.2 )0px -3px 0px inset;
 }
 
@@ -27,7 +37,7 @@
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    border-radius: 50px 50px 0 0;
+    border-radius: 70px 70px 0 0;
     box-shadow: rgba(0,0,0,0.17)0px -23px 25px 0px inset,
     rgba(0,0,0,0.15)0px -36px 30px 0px inset,
     rgba(0,0,0,0.1)0px -79px 40px 0px inset, rgba(0,0,0,0.06)0px 2px 1px,
@@ -51,21 +61,21 @@
 }
 
 .action button{
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: white;
     color:black;
     border: none;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 500;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     box-shadow: rgba(0,0,0,0.4)0px 2px 4px,rgba(0,0,0,0.3)0px 7px 13px,rgba(0,0,0,0.2)0px -3px 0px inset;
 }
 
 button:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.76);
     color:white;
-    border: 3px solid #b6b6b6;
+    /* border: 3px solid #b6b6b6; */
     padding: 7px 17px;
 }
